@@ -26,8 +26,13 @@ header {
   padding: 2rem 1rem;
 }
 
+
 header h1 {
   margin-bottom: 0.5rem;
+  font-family: 'Kablammo', sans-serif; /* only header h1 uses this font */
+  font-size: 2.2rem; /* adjust size if needed */
+  color: #fff; /* keep your existing color */
+  
 }
 
 /* ====================
@@ -96,8 +101,8 @@ nav a:hover {
 .recipe-content {
   display: grid;
   grid-template-columns: 1fr; /* Single column for all screen sizes */
-  gap: 1.5rem;
-  margin-top: 1.5rem;
+  gap: auto;
+  margin-top: auto;
 }
 
 .ingredients,
@@ -106,6 +111,7 @@ nav a:hover {
   padding: 1rem;
   border-radius: 6px;
 }
+
 .ingredients ul {
   background-color: #ffffff;
 }
