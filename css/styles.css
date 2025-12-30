@@ -48,7 +48,7 @@ nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  background-color: #1eb1d2;
+  background-color: #276c9d;
   flex-wrap: wrap;
   border-top: 3px solid #1e42d2;
   border-bottom: 3px solid #1e42d2;
@@ -105,7 +105,7 @@ nav a:hover {
 }
 
 .recipe-links li a:hover {
-  background-color: #fce8dc;
+  background-color: #276c9d;
   transform: translateY(-2px);
 }
 
