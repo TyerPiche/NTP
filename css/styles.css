@@ -24,7 +24,7 @@ body {
    Header
 ==================== */
 header {
-  background-color: #d2691e;
+  background-color: #1eb1d2;
   color: #fff;
   text-align: center;
   padding: 2rem 1rem;
@@ -48,10 +48,10 @@ nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  background-color: #8b4513;
+  background-color: #1eb1d2;
   flex-wrap: wrap;
-  border-top: 3px solid #d2691e;
-  border-bottom: 3px solid #d2691e;
+  border-top: 3px solid #1e42d2;
+  border-bottom: 3px solid #1e42d2;
 }
 
 nav li {
@@ -68,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #a0522d;
+  background-color: #130887;
   transform: scale(1.05);
   border-radius: 4px;
 }
@@ -96,10 +96,10 @@ nav a:hover {
   display: block;
   padding: 1rem 1.5rem;
   background-color: #fff5ee;
-  border-left: 4px solid #d2691e;
+  border-left: 4px solid #0b6579;
   border-radius: 6px;
   text-decoration: none;
-  color: #8b4513;
+  color: #000000;
   font-weight: 500;
   transition: background 0.3s, transform 0.2s;
 }
@@ -139,7 +139,7 @@ nav a:hover {
   margin-bottom: 1rem;
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
-  color: #8b4513;
+  color: #1eb1d2;
 }
 
 /* ====================
@@ -156,7 +156,7 @@ nav a:hover {
 .instructions {
   background-color: #fff5ee;
   padding: 1rem 1.2rem;
-  border-left: 4px solid #d2691e;
+  border-left: 4px solid #1eb1d2;
   border-radius: 6px;
 }
 
@@ -165,7 +165,7 @@ nav a:hover {
   margin-bottom: 0.6rem;
   font-family: 'Playfair Display', serif;
   font-size: 1.3rem;
-  color: #d2691e;
+  color: #1e42d2;
 }
 
 .ingredients ul,
@@ -184,7 +184,7 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 1.2rem;
-  background-color: #8b4513;
+  background-color: #1eb1d2;
   color: #fff;
   margin-top: 3rem;
   font-size: 0.9rem;
