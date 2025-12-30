@@ -14,10 +14,10 @@
 
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  background-color: #fdf6f0;
   color: #333;
   line-height: 1.6;
   font-size: 16px;
+  background-image: url('/img/marble-background.jpg');
 }
 
 /* ====================
