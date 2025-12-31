@@ -24,8 +24,8 @@ body {
    Header
 ==================== */
 header {
-  background-color: #1eb1d2;
-  color: #fff;
+ background-image: url('/img/sprinkle.jpg');
+  color: #000000;
   text-align: center;
   padding: 2rem 1rem;
 }
