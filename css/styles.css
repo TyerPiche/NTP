@@ -59,7 +59,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   padding: 1rem;
   display: block;
@@ -95,7 +95,7 @@ nav a:hover {
 .recipe-links li a {
   display: block;
   padding: 1rem 1.5rem;
-  background-color: #fff5ee;
+  background-color: #ffffff;
   border-left: 4px solid #0b6579;
   border-radius: 6px;
   text-decoration: none;
@@ -107,6 +107,7 @@ nav a:hover {
 .recipe-links li a:hover {
   background-color: #276c9d;
   transform: translateY(-2px);
+  color: #ffffff;
 }
 
 /* ====================
