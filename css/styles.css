@@ -1,7 +1,7 @@
 /* ====================
    Import Google Fonts
 ==================== */
-@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto:wght@400;500&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
 /* ====================
    Global Reset
@@ -13,6 +13,7 @@
 }
 
 body {
+  
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #333;
   line-height: 1.6;
@@ -31,8 +32,8 @@ header {
 }
 
 header h1 {
-  font-family: 'Kablammo', sans-serif;
-  font-size: 2.2rem;
+  font-family: 'Chewy', sans-serif;
+  font-size: 5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -113,35 +114,51 @@ nav a:hover {
 /* ====================
    Recipe Card
 ==================== */
-.recipe-card {
-  background-color: #fff8f0;
-  border-radius: 10px;
-  padding: 1.8rem;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin-bottom: 2rem;
-  transition: transform 0.2s, box-shadow 0.2s;
+.recipe-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
 }
 
-.recipe-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.recipe-card:hover span {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
 .recipe-card img {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+  height: 180px;
+  object-fit: cover;
 }
 
-.recipe-card h2 {
+.recipe-card span {
+  padding: 1rem;
   text-align: center;
-  margin-bottom: 1rem;
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-  color: #1eb1d2;
+  font-size: 1.1rem;
+  color: #1e42d2;
+  background-color: none;
+   transition: color 0.3s ease;
 }
+
 
 /* ====================
    Ingredients & Instructions (STACKED)
